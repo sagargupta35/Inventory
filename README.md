@@ -22,7 +22,7 @@ This Android application allows users to manage their inventory by keeping a rec
 
 ### Installation
 
-1. Clone the repository: `[git clone https://github.com/your-username/inventory-app.git](https://github.com/sagargupta35/Inventory.git)`
+1. Clone the repository: `https://github.com/sagargupta35/Inventory.git`
 2. Open the project in Android Studio.
 3. Build and run the app on an emulator or Android device.
 
