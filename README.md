@@ -1,29 +1,32 @@
-Inventory app
-==================================
+# Inventory App
 
-Solution code for Android Basics with Compose.
+This Android application allows users to manage their inventory by keeping a record of available products. Users can store information such as the name, price, and quantity of each product within their inventory. The app utilizes Android Jetpack components and follows the MVVM (Model-View-ViewModel) architecture pattern.
 
-Introduction
-------------
+## Features
 
-This app is an Inventory tracking app. Demos how to add, update, sell, and delete items from the local database.
-This app demonstrated the use of Android Jetpack component [Room](https://developer.android.com/training/data-storage/room) database.
-The app also leverages [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel),
-[Flow](https://developer.android.com/kotlin/flow),
-and [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/).
+- **Product Management:** Users can add, view, edit, and delete products in their inventory.
+- **Product Information:** Store details including name, price, and quantity for each product.
+- **Offline Data Storage:** The app utilizes Room Database to store product information locally, enabling offline access.
 
-Pre-requisites
---------------
+## Technologies Used
 
-You need to know:
-- How to create and use composables.
-- How to navigate between composables, and pass data between them.
-- How to use architecture components including ViewModel, Flow, StateFlow and StateUi.
-- How to use coroutines for long-running tasks.
-- SQLite database and the SQLite query language
+- **Jetpack Components:** Utilizes Jetpack components such as Room for database management and LiveData/ViewModel for the UI.
+- **MVVM Architecture:** Follows the Model-View-ViewModel architecture pattern for a scalable and maintainable codebase.
+- **Android Studio:** Developed using Android Studio, the official IDE for Android app development.
 
+## Getting Started
 
-Getting Started
----------------
+### Prerequisites
 
-1. Download and run the app.
+- Android Studio installed on your development machine.
+
+### Installation
+
+1. Clone the repository: `https://github.com/sagargupta35/Inventory.git`
+2. Open the project in Android Studio.
+3. Build and run the app on an emulator or Android device.
+
+## How to Use
+
+1. **Add a Product:** Click on the "Add Product" button and input the product details (name, price, quantity).
+2. **View/Edit/Delete Products:** Browse through the list of products, view details, edit or delete products as needed.
